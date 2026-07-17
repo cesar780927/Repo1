@@ -1,8 +1,8 @@
 from pathlib import Path
 BASE_DIR = Path(__file__).parent
-path_emotion = Path(r"C:\Cesar\Python\Coursera\emotion_words.txt")
-path_travel = Path(r"C:\Cesar\Python\Coursera\travel_plans.txt")
-path_school = Path(r"C:\Cesar\Python\Coursera\school_prompt.txt") 
+path_emotion = BASE_DIR / "emotion_words.txt"
+path_travel = BASE_DIR / "travel_plans.txt"
+path_school = BASE_DIR / "school_prompt.txt"
 
 ########  Create a list called emotions that contains the first word of every line in file
 
